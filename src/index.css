@@ -1,0 +1,137 @@
+/* Styling the table container */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+thead th {
+  padding: 12px;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Table row styling */
+tbody tr {
+  transition: background-color 0.3s;
+  
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Table cell styling */
+td {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Button styling */
+button {
+  padding: 8px 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Add button at the bottom */
+#Add-btn {
+  background-color: #007BFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  
+}
+
+#Add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* --- New Styles for Add User Form --- */
+
+/* Center the form */
+form {
+  width: 40%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input field styling */
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+/* Focus effect on input fields */
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ 
+}
+
+/* Form button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Form header styling */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
